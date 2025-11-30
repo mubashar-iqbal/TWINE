@@ -93,5 +93,5 @@ The scripts mentioned above are used to run the simulation of a running robotic 
 
 
 ## License agreement
-The applied license can be found here:
+This repository is copied from: https://github.com/h1548782/seleniumforest. The applied license can be found here:
 [MIT License](https://github.com/h1548782/seleniumforest/blob/main/MIT-LICENSE.txt)
