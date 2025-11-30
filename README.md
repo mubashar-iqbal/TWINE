@@ -1,4 +1,4 @@
-# Predictive Maintenance in the Robotic Arms Industry by applying Digital Twin Technology
+# Anomaly Detection in the Robotic Arms Industry by applying Digital Twin Technology and Explainable AI
 
 
 
@@ -13,7 +13,7 @@
 * [License agreement](#license-agreement)
 
 ## General info
-This project contains the code for my master thesis. The video below offer a quick overview about the proposed framework and a demo of the simulation.
+The video below provides a brief overview of the proposed framework and a demonstration of the simulation.
 
 
 
