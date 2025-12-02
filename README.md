@@ -1,4 +1,4 @@
-# Anomaly Detection in the Robotic Arms Industry by applying Digital Twin Technology and Explainable AI
+# Anomaly Detection in the Industrial Robotic Arms by leveraging Digital Twin and Explainable AI
 
 
 
