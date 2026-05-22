@@ -1,5 +1,6 @@
 # Anomaly Detection in the Industrial Robotic Arms by leveraging Digital Twin and Explainable AI
 
+This code repository is related to this accepted paper: https://doi.org/10.1016/j.iot.2026.101976
 
 ## General info
 The video below provides a brief overview of the proposed framework and a demonstration of the simulation.
@@ -56,8 +57,11 @@ This script contains all steps related to the Digital Twin instance on the Micro
 #### _anomaly_detection.py_
 This file contains all the code necessary to train a prediction model and, furthermore, predict local instances. The function train_model() will create a random forest model, based on the provided input. Additionally, it will display the achieved accuracy score and show a confusion matrix. predict_model() can then be used to predict the anomaly state for current instances. 
 
+#### _training.ipynb_
+Model training on the full dataset, including scalar and vector fields. Also, calculate SHAP-based explanations.
+
 #### _predictive_maintenance.py_
-This script focuses on predictive maintenance. By using SHAP and its benefits for explainability in machine learning algorithms, the causes of anomalies can be pinpointed and countermeasures initiated. Here is an example for the generated SHAP beeswarm plot for the SHAP values of all predicted anomalies. Dots marked in red display high feature values, whereas those marked in blue display low feature values. 
+This script focuses on predictive maintenance. By leveraging SHAP's benefits for explainability in machine learning algorithms, the causes of anomalies can be pinpointed and countermeasures implemented. Here is an example of the generated SHAP beeswarm plot for all predicted anomalies. Dots marked in red display high feature values, whereas those marked in blue display low feature values. 
 
 Furthermore, it contains code for a SHAP partial dependence plot. That way, specific features can be analyzed in greater detail, providing deeper insight into the prediction process.
 
@@ -65,8 +69,6 @@ Furthermore, it contains code for a SHAP partial dependence plot. That way, spec
 ### Simulation
 #### _simulation_robotic_arm.ipynb_
 The scripts mentioned above are used to run simulations of a robotic arm in motion. The main notebook for this purpose is the simulation_robotic_arm.ipynb jupyter file. It imports the predefined functions from all of the available Python scripts. A detailed description of each function can be found within the script files.
-
-
 
 
 ## License agreement
